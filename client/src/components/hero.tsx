@@ -35,7 +35,7 @@ export default function Hero() {
               Data Scientist & MLOps Engineer
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              An undergrad Intelligent Systems Engineer building expertise in Data Science, MLOps, and AIoT. 
+              An Intelligent Systems Engineer building expertise in Data Science, MLOps, and AIoT. 
               I thrive on solving complex problems with innovative techniques and turning ideas into reality through cutting-edge projects.
             </p>
 
@@ -106,7 +106,7 @@ export default function Hero() {
           >
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600"
+                src="/attached_assets/MM.jpg"
                 alt="Professional headshot"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
               />

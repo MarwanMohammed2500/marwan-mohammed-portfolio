@@ -7,21 +7,10 @@ import { Mail, Phone, MapPin, Download, Github, Linkedin } from "lucide-react";
 export default function Contact() {
   const handleDownloadCV = async () => {
     try {
-      const response = await fetch('/api/download-cv');
-      if (response.ok) {
-        const blob = await response.blob();
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.style.display = 'none';
-        a.href = url;
-        a.download = 'Marwan_Mohammed_CV.pdf';
-        document.body.appendChild(a);
-        a.click();
-        window.URL.revokeObjectURL(url);
-      } else {
-        // Fallback: open CV in new tab
-        window.open('/api/download-cv', '_blank');
-      }
+      const link = document.createElement("a");
+      link.href = "/attached_assets/Marwan Mohammed_1749794679584.pdf";
+      link.download = "Marwan_Mohammed_CV.pdf"; // Optional, controls filename
+      link.click();
     } catch (error) {
       console.error('Error downloading CV:', error);
       // Fallback: open CV in new tab
@@ -40,9 +29,6 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
-          <p className="text-xl text-muted-foreground">
-            Ready to collaborate on innovative AI and MLOps projects
-          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -54,7 +40,7 @@ export default function Contact() {
           >
             <h3 className="text-2xl font-semibold mb-6">Get In Touch</h3>
             <p className="text-muted-foreground mb-8">
-              I'm always interested in discussing new opportunities in Data Science, MLOps, and AI. 
+              I'm always interested in discussing new opportunities in Data Science, MLOps, and AI, or just having a nice chat about the tech industry or cars and bikes. 
               Whether you're looking for collaboration, have a project in mind, or just want to connect, 
               I'd love to hear from you.
             </p>
@@ -63,10 +49,6 @@ export default function Contact() {
               <div className="flex items-center">
                 <Mail className="text-primary w-6 mr-3" />
                 <span>marwanmohammed056@gmail.com</span>
-              </div>
-              <div className="flex items-center">
-                <Phone className="text-primary w-6 mr-3" />
-                <span>+201018839464</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="text-primary w-6 mr-3" />

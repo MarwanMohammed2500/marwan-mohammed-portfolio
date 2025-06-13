@@ -9,7 +9,7 @@ export default function Projects() {
     {
       title: "Library Management System",
       description: "Cloud-native application with full DevOps practices: Docker containers, Kubernetes orchestration, and complete automation via Terraform and Jenkins CI/CD.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/library.png",
       tags: ["Docker", "Kubernetes", "AWS EKS", "Terraform"],
       github: "https://github.com/Ahmedyehia12/LibraryManagmentSystem",
       demo: null
@@ -33,7 +33,7 @@ export default function Projects() {
     {
       title: "Egyptian ID OCR Model",
       description: "Specialized OCR model for extracting information from Egyptian national ID cards. Combines optimized pretrained models with custom-trained components.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://egyptianstreets.com/wp-content/uploads/2022/07/unnamed-3.png",
       tags: ["Computer Vision", "OCR", "Model Training"],
       github: "https://github.com/NASO7Y/OCR_Egyptian_ID",
       demo: null
@@ -49,7 +49,7 @@ export default function Projects() {
     {
       title: "Sudoku Generator & Solver",
       description: "Intelligent Sudoku solver using backtracking algorithms (DFS) with puzzle generation capabilities. Includes board validation and console visualization.",
-      image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1731320965510-0c48cf81bd56?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["Algorithms", "Python", "DFS"],
       github: "https://github.com/MarwanMohammed2500/Sudoku-Solver",
       demo: null
@@ -81,13 +81,13 @@ export default function Projects() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="overflow-hidden hover:shadow-xl transition-shadow h-full">
+              <Card className="overflow-hidden hover:shadow-xl transition-shadow h-full flex flex-col">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover"
                 />
-                <CardContent className="p-6 flex flex-col h-full">
+                <CardContent className="p-6 flex flex-col flex-1">
                   <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
                   <p className="text-muted-foreground mb-4 flex-grow">
                     {project.description}
@@ -99,13 +99,13 @@ export default function Projects() {
                       </Badge>
                     ))}
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 mt-auto">
                     {project.github ? (
                       <Button
                         variant="outline"
                         size="sm"
                         onClick={() => window.open(project.github, "_blank")}
-                        className="flex-1"
+                        className="flex-1 border border-blue-300"
                       >
                         <Github className="mr-2 h-4 w-4" />
                         View Code
@@ -154,7 +154,7 @@ export default function Projects() {
                   <Badge variant="secondary">Logistic Regression</Badge>
                   <Badge variant="secondary">Research</Badge>
                 </div>
-                <Button variant="outline" onClick={() => window.open("https://medium.com/@marwanmohammed1886", "_blank")}>
+                <Button variant="outline" onClick={() => window.open("https://medium.com/@marwanmohammed1886/engineering-non-linearity-into-logistic-regression-like-a-decision-tree-729652ccc085", "_blank")}>
                   <ExternalLink className="mr-2 h-4 w-4" />
                   Read Article
                 </Button>

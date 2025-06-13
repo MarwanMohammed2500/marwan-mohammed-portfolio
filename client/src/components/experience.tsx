@@ -83,7 +83,12 @@ export default function Experience() {
                   index % 2 === 0 ? "" : "md:justify-end"
                 }`}
               >
-                <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-primary rounded-full border-4 border-background z-10"></div>
+                <div
+                  className={`absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 rounded-full border-4 border-background z-10 ${
+                    exp.current ? "bg-primary" : "bg-zinc-400 dark:bg-zinc-600"
+                  }`}
+                />
+
                 <div className={`ml-12 md:ml-0 ${index % 2 === 0 ? "md:w-1/2 md:pr-8" : "md:w-1/2 md:pl-8"}`}>
                   <Card className="shadow-lg hover:shadow-xl transition-shadow">
                     <CardContent className="p-6">

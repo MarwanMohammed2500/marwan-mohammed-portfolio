@@ -23,7 +23,17 @@ export default function Skills() {
     {
       name: "Programming Languages",
       level: 95,
-      description: "Python, C/C++, JavaScript, SQL"
+      description: "Python, C/C++, SQL"
+    },
+    {
+      name: "Scripting",
+      level: 90,
+      description: "Python, Bash"
+    },
+    {
+      name: "Robotics and IoT",
+      level: 60,
+      description: "Arduino, ESP32, ArdionoCloud, 3D Designing (Fusion360)"
     }
   ];
 
