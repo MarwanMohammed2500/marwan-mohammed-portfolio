@@ -6,6 +6,11 @@ import { Lightbulb, Users, MessageCircle, Rocket, TrendingUp, Handshake } from "
 export default function Skills() {
   const technicalSkills = [
     {
+      name: "Programming Languages",
+      level: 95,
+      description: "Python, C/C++, Bash, SQL"
+    },
+    {
       name: "Machine Learning & Data Science",
       level: 90,
       description: "Scikit-Learn, TensorFlow, NumPy, Pandas, Matplotlib"
@@ -13,27 +18,17 @@ export default function Skills() {
     {
       name: "MLOps & DevOps",
       level: 85,
-      description: "Docker, Kubernetes, Django, CI/CD Pipelines"
+      description: "Docker, Kubernetes, Terraform, Django, CI/CD Pipelines"
     },
     {
       name: "Cloud Infrastructure",
       level: 80,
-      description: "AWS (EC2, EKS, ECS, RDS), Terraform, Bash"
-    },
-    {
-      name: "Programming Languages",
-      level: 95,
-      description: "Python, C/C++, SQL"
-    },
-    {
-      name: "Scripting",
-      level: 90,
-      description: "Python, Bash"
+      description: "AWS (EC2, EKS, ECS, RDS)"
     },
     {
       name: "Robotics and IoT",
       level: 60,
-      description: "Arduino, ESP32, ArdionoCloud, 3D Designing (Fusion360)"
+      description: "Arduino, ESP32, ArdionoCloud, 3D Designing (Fusion360), IoT Communication, Embedded Systems"
     }
   ];
 

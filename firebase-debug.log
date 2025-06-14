@@ -1,0 +1,107 @@
+[debug] [2025-06-13T16:49:39.164Z] ----------------------------------------------------------------------
+[debug] [2025-06-13T16:49:39.171Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2025-06-13T16:49:39.171Z] CLI Version:   14.7.0
+[debug] [2025-06-13T16:49:39.171Z] Platform:      linux
+[debug] [2025-06-13T16:49:39.171Z] Node Version:  v20.19.2
+[debug] [2025-06-13T16:49:39.172Z] Time:          Fri Jun 13 2025 19:49:39 GMT+0300 (GMT+03:00)
+[debug] [2025-06-13T16:49:39.172Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-13T16:49:39.178Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-13T16:49:39.179Z] > authorizing via signed-in user (marwanmohammed056@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/marwanmo/Downloads/PersonalPortfolioShowcase
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-06-13T16:49:50.424Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:49:50.424Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:49:50.426Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-06-13T16:49:50.426Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"marwan-mohammed-portfolio","name":"marwan-mohammed-portfolio"}
+[debug] [2025-06-13T16:49:51.672Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-06-13T16:49:51.672Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-06-13T16:49:51.675Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID marwan-mohammed-portfolio. Please try again with a unique project ID.
+[debug] [2025-06-13T16:51:46.630Z] ----------------------------------------------------------------------
+[debug] [2025-06-13T16:51:46.637Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2025-06-13T16:51:46.637Z] CLI Version:   14.7.0
+[debug] [2025-06-13T16:51:46.638Z] Platform:      linux
+[debug] [2025-06-13T16:51:46.638Z] Node Version:  v20.19.2
+[debug] [2025-06-13T16:51:46.638Z] Time:          Fri Jun 13 2025 19:51:46 GMT+0300 (GMT+03:00)
+[debug] [2025-06-13T16:51:46.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-13T16:51:46.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-13T16:51:46.645Z] > authorizing via signed-in user (marwanmohammed056@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/marwanmo/Downloads/PersonalPortfolioShowcase
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-06-13T16:52:24.234Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:24.234Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:24.237Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-06-13T16:52:24.237Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"marwan-mohammed-sayed","name":"marwan-mohammed-portfolio"}
+[debug] [2025-06-13T16:52:25.373Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-06-13T16:52:25.374Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.8097702098725592053"}
+[debug] [2025-06-13T16:52:25.375Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:25.375Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:25.376Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8097702098725592053 [none]
+[debug] [2025-06-13T16:52:26.184Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8097702098725592053 200
+[debug] [2025-06-13T16:52:26.184Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8097702098725592053 {"name":"operations/create_project.global.8097702098725592053"}
+[debug] [2025-06-13T16:52:26.685Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-06-13T16:52:26.685Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:26.685Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:26.685Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8097702098725592053 [none]
+[debug] [2025-06-13T16:52:26.969Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8097702098725592053 200
+[debug] [2025-06-13T16:52:26.969Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8097702098725592053 {"name":"operations/create_project.global.8097702098725592053","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"540351024266","projectId":"marwan-mohammed-sayed","lifecycleState":"ACTIVE","name":"marwan-mohammed-portfolio","createTime":"2025-06-13T16:52:25.910902Z"}}
+[debug] [2025-06-13T16:52:26.971Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:26.971Z] Checked if tokens are valid: true, expires at: 1749836972335
+[debug] [2025-06-13T16:52:26.972Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/marwan-mohammed-sayed:addFirebase [none]
+[debug] [2025-06-13T16:52:28.441Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/marwan-mohammed-sayed:addFirebase 403
+[debug] [2025-06-13T16:52:28.441Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/marwan-mohammed-sayed:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-06-13T16:52:28.444Z] Request to https://firebase.googleapis.com/v1beta1/projects/marwan-mohammed-sayed:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2025-06-13T16:52:28.452Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/marwan-mohammed-sayed:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

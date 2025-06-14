@@ -7,9 +7,9 @@ import { Github, ExternalLink } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Library Management System",
+      title: "Cloud-Native Library Management System",
       description: "Cloud-native application with full DevOps practices: Docker containers, Kubernetes orchestration, and complete automation via Terraform and Jenkins CI/CD.",
-      image: "/attached_assets/library.png",
+      image: "https://images.unsplash.com/photo-1568667256549-094345857637?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["Docker", "Kubernetes", "AWS EKS", "Terraform"],
       github: "https://github.com/Ahmedyehia12/LibraryManagmentSystem",
       demo: null
@@ -17,8 +17,8 @@ export default function Projects() {
     {
       title: "Neural Network Techniques Explorer",
       description: "Interactive toolkit implementing 6 ANN methods (RBF, PCA, SOM, ART1, Fuzzy, Genetic) with Streamlit GUI for visualization and experimentation.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "Streamlit", "Neural Networks"],
+      image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Python", "Streamlit", "Neural Networks", "Git"],
       github: "https://github.com/MarwanMohammed2500/RBF-Calculator",
       demo: null
     },
@@ -42,7 +42,7 @@ export default function Projects() {
       title: "MLPy - ML Algorithms from Scratch",
       description: "Open-source educational project implementing machine learning algorithms from scratch, comparing performance with established libraries like Scikit-Learn.",
       image: "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["Machine Learning", "Python", "Education"],
+      tags: ["Machine Learning", "Python", "Education", "Git", "Scikit-Learn", "Pandas", "NumPy","Matplotlib"],
       github: "https://github.com/MarwanMohammed2500/MLPy",
       demo: null
     },
@@ -52,6 +52,14 @@ export default function Projects() {
       image: "https://images.unsplash.com/photo-1731320965510-0c48cf81bd56?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["Algorithms", "Python", "DFS"],
       github: "https://github.com/MarwanMohammed2500/Sudoku-Solver",
+      demo: null
+    },
+    {
+      title: "ML Web App for Predicting Ad Campaign Responses",
+      description: "Deployed a trained logistic regression model (from the previous project) in a web application that predicts the likelihood of a user responding to an ad campaign based on age and salary input.",
+      image: "https://images.unsplash.com/photo-1656164630621-8974e3a7e85c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Python", "Django", "Docker", "Git", "Supervised model training"],
+      github: "https://github.com/MarwanMohammed2500/Ad-Campaign-Demographical-Prediction",
       demo: null
     }
   ];

@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
+          src="https://i.ibb.co/ccgq7G5F/1000220490.jpg"
           alt="Modern developer workspace"
           className="w-full h-full object-cover opacity-5 dark:opacity-10"
         />
@@ -106,7 +106,7 @@ export default function Hero() {
           >
             <div className="relative">
               <img
-                src="/attached_assets/MM.jpg"
+                src="attached_assets/MM.jpg"
                 alt="Professional headshot"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
               />

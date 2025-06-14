@@ -27,7 +27,6 @@ export default function About() {
           >
             <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Currently pursuing my Bachelor's in Computer Science at Menofia University with a focus on Intelligent Systems. 
               My unique combination of DevOps experience and machine learning expertise allows me to build end-to-end AI solutions 
               that are not only innovative but also scalable and maintainable.
             </p>

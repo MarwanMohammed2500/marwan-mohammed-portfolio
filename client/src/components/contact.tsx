@@ -2,19 +2,17 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Download, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, FileUser, Github, Linkedin } from "lucide-react";
 
 export default function Contact() {
   const handleDownloadCV = async () => {
     try {
-      const link = document.createElement("a");
-      link.href = "/attached_assets/Marwan Mohammed_1749794679584.pdf";
-      link.download = "Marwan_Mohammed_CV.pdf"; // Optional, controls filename
-      link.click();
+      window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Marwan_Mohammed_CV.pdf", '_blank');
     } catch (error) {
       console.error('Error downloading CV:', error);
+      window.open("https://docs.google.com/document/d/1CbIyCawneZVk16mW8cBuwLEU8ELdMP4AsgmO3NPkf68/edit?tab=t.0", '_blank');
       // Fallback: open CV in new tab
-      window.open('/api/download-cv', '_blank');
+      
     }
   };
 
@@ -105,8 +103,8 @@ export default function Contact() {
                   Get a detailed overview of my experience, skills, and achievements in a comprehensive PDF format.
                 </p>
                 <Button onClick={handleDownloadCV} className="w-full mb-8">
-                  <Download className="mr-2 h-4 w-4" />
-                  Download CV/Resume
+                  <FileUser className="mr-2 h-4 w-4" />
+                  CV/Resume
                 </Button>
 
                 <div className="p-4 bg-primary/10 rounded-lg">
