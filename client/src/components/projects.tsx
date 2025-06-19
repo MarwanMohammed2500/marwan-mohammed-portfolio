@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       title: "Smart Door/Lock System",
-      description: "AI-powered smart lock with face recognition, backup password system, and IoT connectivity. Features ESP32 integration and Telegram notifications.",
+      description: "A smart lock system with real-time face recognition, backup password access, and IoT connectivity using ESP32. The system sends intrusion alerts via Telegram and can integrate with broader home security networks. Ideal for residential or high-security environments as a first layer of defense against unauthorized access.",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tags: ["Computer Vision", "ESP32", "IoT"],
       github: null,
@@ -32,7 +32,7 @@ export default function Projects() {
     },
     {
       title: "Egyptian ID OCR Model",
-      description: "Specialized OCR model for extracting information from Egyptian national ID cards. Combines optimized pretrained models with custom-trained components.",
+      description: "A specialized OCR pipeline for extracting structured data from Egyptian national ID cards, combining fine-tuned pretrained models with custom-trained components. Ideal for governmental and private institutions seeking to automate data entry, improve accuracy, and ensure data integrity when processing ID-based information.",
       image: "https://egyptianstreets.com/wp-content/uploads/2022/07/unnamed-3.png",
       tags: ["Computer Vision", "OCR", "Model Training"],
       github: "https://github.com/NASO7Y/OCR_Egyptian_ID",
@@ -56,10 +56,18 @@ export default function Projects() {
     },
     {
       title: "ML Web App for Predicting Ad Campaign Responses",
-      description: "Deployed a trained logistic regression model (from the previous project) in a web application that predicts the likelihood of a user responding to an ad campaign based on age and salary input.",
+      description: "Deployed a modified logistic regression model in a web app to predict user response to ads based on age and salary. Helps optimize ad spend by enabling more targeted and cost-efficient marketing campaigns.",
       image: "https://images.unsplash.com/photo-1656164630621-8974e3a7e85c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["Python", "Django", "Docker", "Git", "Supervised model training"],
       github: "https://github.com/MarwanMohammed2500/Ad-Campaign-Demographical-Prediction",
+      demo: null
+    },
+    {
+      title: "Celebrity Face Recognition CV Model",
+      description: "A real-time video recognition system using InsightFace's antelopev2 and Deep SORT. While built with celebrities for demo purposes, the system demonstrates core technologies used in automated security systems, access control, and smart surveillance.",
+      image: "https://plus.unsplash.com/premium_photo-1700830452915-434970100217?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Computer Vision", "Pretrained Models", "Video and Image Processing", "Embedding Similarity", "Deep Learning Interface", "Object Tracking"],
+      github: "https://github.com/MarwanMohammed2500/Celebrity_Face_Recognition",
       demo: null
     }
   ];
