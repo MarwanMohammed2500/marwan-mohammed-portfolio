@@ -8,7 +8,7 @@ export default function Skills() {
     {
       name: "Programming Languages",
       level: 95,
-      description: "Python, C/C++, Bash, SQL"
+      description: "Python, C/C++, Bash, SQL, Object Oriented Programming (OOP)"
     },
     {
       name: "Machine Learning & Data Science",

@@ -35,8 +35,8 @@ export default function Hero() {
               Data Scientist & MLOps Engineer
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              An Intelligent Systems Engineer building expertise in Data Science, MLOps, and AIoT. 
-              I thrive on solving complex problems with innovative techniques and turning ideas into reality through cutting-edge projects.
+              I love blending Data Science and MLOps with my growing interest in AIoT and Robotics. I enjoy working with machine learning models, building intelligent systems, and taking projects from ideation to deployment.
+              When I'm not doing that, you'll probably find me geeking over motorcycles and cars, reading a book, or enjoying time with my family and friends.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">

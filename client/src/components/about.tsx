@@ -31,7 +31,7 @@ export default function About() {
               that are not only innovative but also scalable and maintainable.
             </p>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I take a hands-on, results-driven approach to every challenge, whether it's optimizing ML workflows, 
+              I like to approach problems with strategy and with results in-mind, whether it's optimizing ML workflows, 
               building intelligent systems, or deploying models at scale. My experience spans from traditional software 
               development to cutting-edge AI research and implementation.
             </p>
