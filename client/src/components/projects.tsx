@@ -7,10 +7,10 @@ import { Github, ExternalLink } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "FashionMNIST Fashion Classifier",
-      description: "This project is not intended to replicate results on the official FashionMNIST benchmark. Instead, it's a hands-on exploration of building, modularizing, and deploying a deep learning model using best practices, with a focus on backend MLOps workflows.",
+      title: "End-to-End MLOps Pipeline: Deep Learning Deployment",
+      description: "A practical MLOps-focused project demonstrating the full lifecycle of a deep learning model using FashionMNIST — from modular model design to deployment with FastAPI, Docker, and Kubernetes. Emphasis is on production-readiness, reproducibility, and clean backend workflows.",
       image: "https://www.databricks.com/sites/default/files/inline-images/mlops-cycle.png?v=1673970772",
-      tags: ["PyTorch", "FastAPI", "Docker", "Kubernetes", "TensorBoard", "TorchScript Model Serialization", "Matplotlib", "Modular Design"],
+      tags: ["PyTorch", "FastAPI", "Docker", "Kubernetes", "TensorBoard", "TorchScript", "Matplotlib", "Modular ML Design"],
       github: "https://github.com/MarwanMohammed2500/FashionMNIST_Modular_Deployed",
       demo: null
     },
