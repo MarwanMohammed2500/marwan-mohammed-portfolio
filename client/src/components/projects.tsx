@@ -7,11 +7,11 @@ import { Github, ExternalLink } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Cloud-Native Library Management System",
-      description: "Cloud-native application with full DevOps practices: Docker containers, Kubernetes orchestration, and complete automation via Terraform and Jenkins CI/CD.",
-      image: "https://images.unsplash.com/photo-1568667256549-094345857637?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tags: ["Docker", "Kubernetes", "AWS EKS", "Terraform"],
-      github: "https://github.com/Ahmedyehia12/LibraryManagmentSystem",
+      title: "FashionMNIST Fashion Classifier",
+      description: "This project is not intended to replicate results on the official FashionMNIST benchmark. Instead, it's a hands-on exploration of building, modularizing, and deploying a deep learning model using best practices, with a focus on backend MLOps workflows.",
+      image: "https://www.databricks.com/sites/default/files/inline-images/mlops-cycle.png?v=1673970772",
+      tags: ["PyTorch", "FastAPI", "Docker", "Kubernetes", "TensorBoard", "TorchScript Model Serialization", "Matplotlib", "Modular Design"],
+      github: "https://github.com/MarwanMohammed2500/FashionMNIST_Modular_Deployed",
       demo: null
     },
     {
@@ -39,19 +39,11 @@ export default function Projects() {
       demo: null
     },
     {
-      title: "MLPy - ML Algorithms from Scratch",
-      description: "Open-source educational project implementing machine learning algorithms from scratch, comparing performance with established libraries like Scikit-Learn.",
-      image: "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tags: ["Machine Learning", "Python", "Education", "Git", "Scikit-Learn", "Pandas", "NumPy","Matplotlib"],
-      github: "https://github.com/MarwanMohammed2500/MLPy",
-      demo: null
-    },
-    {
-      title: "Sudoku Generator & Solver",
-      description: "Intelligent Sudoku solver using backtracking algorithms (DFS) with puzzle generation capabilities. Includes board validation and console visualization.",
-      image: "https://images.unsplash.com/photo-1731320965510-0c48cf81bd56?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tags: ["Algorithms", "Python", "DFS"],
-      github: "https://github.com/MarwanMohammed2500/Sudoku-Solver",
+      title: "Celebrity Face Recognition CV Model",
+      description: "A real-time video recognition system using InsightFace's antelopev2 and Deep SORT. While built with celebrities for demo purposes, the system demonstrates core technologies used in automated security systems, access control, and smart surveillance.",
+      image: "https://plus.unsplash.com/premium_photo-1700830452915-434970100217?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Computer Vision", "Pretrained Models", "Video and Image Processing", "Embedding Similarity", "Deep Learning Interface", "Object Tracking"],
+      github: "https://github.com/MarwanMohammed2500/Celebrity_Face_Recognition",
       demo: null
     },
     {
@@ -63,11 +55,19 @@ export default function Projects() {
       demo: null
     },
     {
-      title: "Celebrity Face Recognition CV Model",
-      description: "A real-time video recognition system using InsightFace's antelopev2 and Deep SORT. While built with celebrities for demo purposes, the system demonstrates core technologies used in automated security systems, access control, and smart surveillance.",
-      image: "https://plus.unsplash.com/premium_photo-1700830452915-434970100217?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      tags: ["Computer Vision", "Pretrained Models", "Video and Image Processing", "Embedding Similarity", "Deep Learning Interface", "Object Tracking"],
-      github: "https://github.com/MarwanMohammed2500/Celebrity_Face_Recognition",
+      title: "Sudoku Generator & Solver",
+      description: "Intelligent Sudoku solver using backtracking algorithms (DFS) with puzzle generation capabilities. Includes board validation and console visualization.",
+      image: "https://images.unsplash.com/photo-1731320965510-0c48cf81bd56?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Algorithms", "Python", "DFS"],
+      github: "https://github.com/MarwanMohammed2500/Sudoku-Solver",
+      demo: null
+    },
+    {
+      title: "Cloud-Native Library Management System",
+      description: "Cloud-native application with full DevOps practices: Docker containers, Kubernetes orchestration, and complete automation via Terraform and Jenkins CI/CD.",
+      image: "https://images.unsplash.com/photo-1568667256549-094345857637?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Docker", "Kubernetes", "AWS EKS", "Terraform"],
+      github: "https://github.com/Ahmedyehia12/LibraryManagmentSystem",
       demo: null
     }
   ];
