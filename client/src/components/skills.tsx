@@ -13,12 +13,17 @@ export default function Skills() {
     {
       name: "Machine Learning & Data Science",
       level: 90,
-      description: "Scikit-Learn, PyTorch, NumPy, Pandas, Matplotlib, SeaBorn"
+      description: "Scikit-Learn, PyTorch, NumPy, Pandas, Experiment Tracking (Manual, TensorBoard), Modular Design"
     },
     {
-      name: "MLOps & DevOps",
-      level: 85,
-      description: "Docker, Kubernetes, Terraform, Django, CI/CD Pipelines"
+      name: "Data Analysis & Exploration",
+      level: 90,
+      description: "Data Visualization(Matplotlib, SeaBorn), Excel/Google Sheets, PowerBI"
+    },
+    {
+      name: "MLOps",
+      level: 90,
+      description: "Docker, Kubernetes, Terraform, Django, CI/CD Pipelines(Jenkins, GitHub Actions), FastAPI"
     },
     {
       name: "Cloud Infrastructure",
