@@ -124,7 +124,7 @@ export default function Projects() {
                         className="flex-1 border border-blue-300"
                       >
                         <Github className="mr-2 h-4 w-4" />
-                        View Code
+                        View Project
                       </Button>
                     ) : (
                       <Button variant="outline" size="sm" disabled className="flex-1">
