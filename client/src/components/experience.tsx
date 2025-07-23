@@ -40,14 +40,14 @@ export default function Experience() {
 
   const volunteerExperiences = [
     {
-      title: "Advisor - AI Entrepreneurship Club",
-      period: "Oct 2024 - Present",
-      description: "Guiding new leadership team through organizational challenges and strategic decisions, ensuring continuity of community momentum."
-    },
-    {
       title: "Vice-President - AI Entrepreneurship Club",
       period: "Oct 2023 - Oct 2024",
       description: "Rebuilt organizational structure, supervised 7 communities and 5 committees. Led strategic oversight and hands-on execution of events and programs."
+    },
+    {
+      title: "Head of HR Committee - AI Entrepreneurship Club",
+      period: "Feb 2023 - Sept 2024",
+      description: "Led all HR operations while wearing multiple hats (from graphic design and video editing to copywriting and casually coding a few tools too)"
     }
   ];
 
@@ -119,7 +119,7 @@ export default function Experience() {
           viewport={{ once: true }}
           className="mt-20"
         >
-          <h3 className="text-2xl font-semibold mb-8 text-center">Leadership & Volunteer Experience</h3>
+          <h3 className="text-2xl font-semibold mb-8 text-center">Volunteer Experience</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {volunteerExperiences.map((exp, index) => (
               <motion.div

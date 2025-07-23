@@ -14,7 +14,7 @@ export default function About() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl text-muted-foreground">
-            Bridging DevOps expertise with machine learning and intelligent systems
+            Bridging DevOps with machine learning and intelligent systems
           </p>
         </motion.div>
 
@@ -27,13 +27,12 @@ export default function About() {
           >
             <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              My unique combination of DevOps experience and machine learning expertise allows me to build end-to-end AI solutions 
+              My unique combination of DevOps and machine learning expertise allows me to build end-to-end AI solutions 
               that are not only innovative but also scalable and maintainable.
             </p>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               I like to approach problems with strategy and with results in-mind, whether it's optimizing ML workflows, 
-              building intelligent systems, or deploying models at scale. My experience spans from traditional software 
-              development to cutting-edge AI research and implementation.
+              building intelligent systems, or deploying models at scale.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6">
@@ -42,7 +41,7 @@ export default function About() {
                   <h4 className="font-semibold mb-2">Education</h4>
                   <p className="text-sm text-muted-foreground">B.S. Computer Science</p>
                   <p className="text-sm text-muted-foreground">Menofia University</p>
-                  <p className="text-sm text-muted-foreground">GPA: 3.48/4.0</p>
+                  <p className="text-sm text-muted-foreground">GPA: 3.49/4.0</p>
                 </CardContent>
               </Card>
               <Card>
