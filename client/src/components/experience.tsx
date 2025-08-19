@@ -5,6 +5,27 @@ import { motion } from "framer-motion";
 export default function Experience() {
   const experiences = [
     {
+      title: "Independent MLOps Engineer",
+      company: "Self-Employed",
+      type: "Cairo • Contractor",
+      period: "Feb 2025 - Present",
+      current: true,
+      description: {
+        "Rabwah": [
+        "Improved, dockerized, and deployed a production-ready RAG system as customer support for Rabwah.",
+        "Built a CI/CD Pipeline that automates image builds, registry pushes, and deployment to the client's server."]
+
+      }
+},
+    {
+      title: "Student Guide",
+      company: "CLS - Egyptian Ministry of Communication",
+      type: "On-Site • Part Time",
+      period: "Feb 2025 - Present",
+      current: true,
+      description: "Helping students navigate their career paths in DECI program, creating supportive environments for skill development and career growth."
+    },
+    {
       title: "DevOps Engineer",
       company: "Prezza",
       type: "Remote • Contract",
@@ -14,11 +35,11 @@ export default function Experience() {
     },
     {
       title: "Student Guide",
-      company: "CLS - Egyptian Ministry of Communication",
+      company: "YAT - Egyptian Ministry of Communication",
       type: "On-Site • Part Time",
-      period: "Feb 2025 - Present",
-      current: true,
-      description: "Helping students navigate their career paths in DECI program, creating supportive environments for skill development and career growth."
+      period: "Jul 2023 - Feb 2025",
+      current: false,
+      description: "Helped students navigate their career paths in DECI program, creating supportive environments for skill development and career growth."
     },
     {
       title: "Software Engineer & Data Analyst",
@@ -95,15 +116,43 @@ export default function Experience() {
                       <div className="flex items-center justify-between mb-4">
                         <h3 className="text-xl font-semibold">{exp.title}</h3>
                         {exp.current && (
-                          <Badge variant="secondary" className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+                          <Badge
+                            variant="secondary"
+                            className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
+                          >
                             Current
                           </Badge>
                         )}
                       </div>
                       <p className="text-primary font-medium mb-2">{exp.company}</p>
                       <p className="text-sm text-muted-foreground mb-3">{exp.period}</p>
-                      <p className="text-muted-foreground">{exp.description}</p>
+
+                      {/* description renderer */}
+                      {typeof exp.description === "string" ? (
+                        <p className="text-muted-foreground">{exp.description}</p>
+                      ) : Array.isArray(exp.description) ? (
+                        <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                          {exp.description.map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        // Handle dictionary form
+                        <div className="space-y-2">
+                          {Object.entries(exp.description).map(([key, items]) => (
+                            <div key={key}>
+                              <p className="font-medium">{key}:</p>
+                              <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                                {(items as string[]).map((item, i) => (
+                                  <li key={i}>{item}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </CardContent>
+
                   </Card>
                 </div>
               </motion.div>
