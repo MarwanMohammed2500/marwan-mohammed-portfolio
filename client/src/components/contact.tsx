@@ -104,7 +104,7 @@ export default function Contact() {
               <CardContent className="p-8">
                 <h4 className="text-xl font-semibold mb-6">Download Resume</h4>
                 <p className="text-muted-foreground mb-6">
-                  Get a detailed overview of my experience, skills, and achievements in a comprehensive PDF format.
+                  Get a detailed overview of my experience, skills, and achievements.
                 </p>
                 <Button onClick={handleDownloadCV} className="w-full mb-8">
                   <FileUser className="mr-2 h-4 w-4" />
