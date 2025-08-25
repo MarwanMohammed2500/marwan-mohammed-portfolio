@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, FileUser, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, FileUser, CalendarClock, Github, Linkedin } from "lucide-react";
 
 export default function Contact() {
   const handleDownloadCV = async () => {
@@ -51,6 +51,10 @@ export default function Contact() {
               <div className="flex items-center">
                 <MapPin className="text-primary w-6 mr-3" />
                 <span>Cairo, Egypt</span>
+              </div>
+              <div className="flex items-center">
+                <CalendarClock className="text-primary w-6 mr-3" />
+                <span><a href="https://calendar.app.google/MVFxdEbJPitdrkMd6">Book a meeting now!</a></span>
               </div>
             </div>
 
