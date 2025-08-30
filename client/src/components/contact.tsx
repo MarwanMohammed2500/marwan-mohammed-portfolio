@@ -102,7 +102,7 @@ export default function Contact() {
           >
             <Card>
               <CardContent className="p-8">
-                <h4 className="text-xl font-semibold mb-6">Download Resume</h4>
+                <h4 className="text-xl font-semibold mb-6">Resume</h4>
                 <p className="text-muted-foreground mb-6">
                   Get a detailed overview of my experience, skills, and achievements.
                 </p>
