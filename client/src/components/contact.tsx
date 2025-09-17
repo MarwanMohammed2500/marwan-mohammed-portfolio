@@ -5,12 +5,22 @@ import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, FileUser, CalendarClock, Github, Linkedin } from "lucide-react";
 
 export default function Contact() {
-  const handleDownloadCV = async () => {
+  const handleOpenCV = async () => {
     try {
       window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Marwan_Mohammed_CV.pdf", '_blank');
     } catch (error) {
       console.error('Error downloading CV:', error);
-      window.open("https://docs.google.com/document/d/1CbIyCawneZVk16mW8cBuwLEU8ELdMP4AsgmO3NPkf68/edit?tab=t.0", '_blank');
+      window.open("https://docs.google.com/document/d/1CbIyCawneZVk16mW8cBuwLEU8ELdMP4AsgmO3NPkf68/edit?usp=sharing", '_blank');
+      // Fallback: open CV in new tab
+      
+    }
+  };
+  const handleOpenFreelanceContract = async () => {
+    try {
+      window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Freelance_Employment_Contract.pdf", '_blank');
+    } catch (error) {
+      console.error('Error downloading CV:', error);
+      window.open("https://docs.google.com/document/d/1Z09kmG1ZD0qbE8YVCyZwJ_-ipBA928fM_yc3W_K_iqU/edit?usp=sharing", '_blank');
       // Fallback: open CV in new tab
       
     }
@@ -106,7 +116,7 @@ export default function Contact() {
                 <p className="text-muted-foreground mb-6">
                   Get a detailed overview of my experience, skills, and achievements.
                 </p>
-                <Button onClick={handleDownloadCV} className="w-full mb-8">
+                <Button onClick={handleOpenCV} className="w-full mb-8">
                   <FileUser className="mr-2 h-4 w-4" />
                   CV/Resume
                 </Button>
@@ -118,6 +128,10 @@ export default function Contact() {
                     <Badge variant="outline" className="mr-2 mb-1">Data Science Positions</Badge>
                     <Badge variant="outline" className="mr-2 mb-1">AI Research Opportunities</Badge>
                     <Badge variant="outline" className="mr-2 mb-1">Freelance Projects</Badge>
+                    <Button onClick={handleOpenFreelanceContract} className="w-full mb-8">
+                      <FileUser className="mr-2 h-4 w-4" />
+                      Freelance Contract
+                    </Button>
                   </div>
                 </div>
               </CardContent>
