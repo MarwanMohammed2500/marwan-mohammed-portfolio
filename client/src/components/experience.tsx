@@ -10,12 +10,7 @@ export default function Experience() {
       type: "Cairo • Contractor",
       period: "Feb 2025 - Present",
       current: true,
-      description: {
-        "Rabwah": [
-        "Improved, dockerized, and deployed a production-ready RAG system as customer support for Rabwah.",
-        "Built a CI/CD Pipeline that automates image builds, registry pushes, and deployment to the client's server."]
-
-      }
+      description: "Worked as an independed MLOps Engineer and AI Engineer"
     },
     {
       title: "Student Guide",
@@ -61,6 +56,19 @@ export default function Experience() {
       title: "Head of HR Committee - AI Entrepreneurship Club",
       period: "Feb 2023 - Sept 2024",
       description: "Led all HR operations while wearing multiple hats (from graphic design and video editing to copywriting and casually coding a few tools too)"
+    }
+  ];
+
+  const FreelanceExperiences = [
+    {
+      title: "AI Engineer",
+      client: "Rabwah",
+      description: ["Improved, dockerized, and deployed a production-ready RAG system as customer support for Rabwah.", "Built a CI/CD Pipeline that automates image builds, registry pushes, and deployment to the client's server."]
+    },
+    {
+      title: "AI Engineer",
+      client: "Creato",
+      description: ["Created their entire AI Infrastrucutre using LangChain and FastAPI", "Created an Evaluation system using LLMs", "Created an Image Generator using DAL.E"]
     }
   ];
 
@@ -175,6 +183,59 @@ export default function Experience() {
                     <h4 className="text-lg font-semibold mb-2">{exp.title}</h4>
                     <p className="text-primary text-sm mb-3">{exp.period}</p>
                     <p className="text-muted-foreground text-sm">{exp.description}</p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Freelance Experience */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="mt-20"
+        >
+          <h3 className="text-2xl font-semibold mb-8 text-center">Freelance Experience</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            {FreelanceExperiences.map((exp, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card>
+                  <CardContent className="p-6">
+                    <h4 className="text-lg font-semibold mb-2">{exp.title}</h4>
+                    <p className="text-primary text-sm mb-3">{exp.client}</p>
+                    {/* description renderer */}
+                      {typeof exp.description === "string" ? (
+                        <p className="text-muted-foreground">{exp.description}</p>
+                      ) : Array.isArray(exp.description) ? (
+                        <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                          {exp.description.map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        // Handle dictionary form
+                        <div className="space-y-2">
+                          {Object.entries(exp.description).map(([key, items]) => (
+                            <div key={key}>
+                              <p className="font-medium">{key}:</p>
+                              <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                                {(items as string[]).map((item, i) => (
+                                  <li key={i}>{item}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                   </CardContent>
                 </Card>
               </motion.div>
