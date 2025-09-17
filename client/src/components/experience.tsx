@@ -16,7 +16,7 @@ export default function Experience() {
         "Built a CI/CD Pipeline that automates image builds, registry pushes, and deployment to the client's server."]
 
       }
-},
+    },
     {
       title: "Student Guide",
       company: "CLS - Egyptian Ministry of Communication",
@@ -24,14 +24,6 @@ export default function Experience() {
       period: "Feb 2025 - Present",
       current: true,
       description: "Helping students navigate their career paths in DECI program, creating supportive environments for skill development and career growth."
-    },
-    {
-      title: "DevOps Engineer",
-      company: "Prezza",
-      type: "Remote • Contract",
-      period: "Jan 2025 - Present",
-      current: true,
-      description: "Joined mid-development to help scale infrastructure, troubleshooting issues while keeping teams aligned. Cross-functional work including Django development to meet project deadlines."
     },
     {
       title: "Student Guide",

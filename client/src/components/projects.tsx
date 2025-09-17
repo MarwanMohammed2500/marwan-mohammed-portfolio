@@ -31,6 +31,14 @@ export default function Projects() {
       demo: null
     },
     {
+      title: "Scalable Question Generation System",
+      description: "An MCQ Generation System that combines document loading, embeddings, and large language model prompting into an end-to-end pipeline with a simple Streamlit interface. This is not a production-ready platform, but a functional demo that shows how such a system could be built and scaled.",
+      image: "https://i.postimg.cc/MHVvrq0T/q-gen-screenshot.png",
+      tags: ["LangChain", "Streamlit", "Google Gemini embeddings", "in-memory vector storage", "File ingestion", "RegEx"],
+      github: "https://github.com/MarwanMohammed2500/Scalable_Question_Generation_System",
+      demo: null
+    },
+    {
       title: "Egyptian ID OCR Model",
       description: "A specialized OCR pipeline for extracting structured data from Egyptian national ID cards, combining fine-tuned pretrained models with custom-trained components. Ideal for governmental and private institutions seeking to automate data entry, improve accuracy, and ensure data integrity when processing ID-based information.",
       image: "https://egyptianstreets.com/wp-content/uploads/2022/07/unnamed-3.png",
