@@ -59,6 +59,10 @@ export default function Contact() {
                 <span>marwanmohammed056@gmail.com</span>
               </div>
               <div className="flex items-center">
+                <Phone className="text-primary w-6 mr-3" />
+                <span><a href="https://wa.me/201018839464">01018839464</a></span>
+              </div>
+              <div className="flex items-center">
                 <MapPin className="text-primary w-6 mr-3" />
                 <span>Cairo, Egypt</span>
               </div>
