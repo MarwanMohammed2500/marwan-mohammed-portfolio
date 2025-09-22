@@ -160,36 +160,6 @@ export default function Experience() {
           </div>
         </div>
 
-        {/* Volunteer Experience */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="mt-20"
-        >
-          <h3 className="text-2xl font-semibold mb-8 text-center">Volunteer Experience</h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            {volunteerExperiences.map((exp, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card>
-                  <CardContent className="p-6">
-                    <h4 className="text-lg font-semibold mb-2">{exp.title}</h4>
-                    <p className="text-primary text-sm mb-3">{exp.period}</p>
-                    <p className="text-muted-foreground text-sm">{exp.description}</p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
-
         {/* Freelance Experience */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -236,6 +206,36 @@ export default function Experience() {
                           ))}
                         </div>
                       )}
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Volunteer Experience */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="mt-20"
+        >
+          <h3 className="text-2xl font-semibold mb-8 text-center">Volunteer Experience</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            {volunteerExperiences.map((exp, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card>
+                  <CardContent className="p-6">
+                    <h4 className="text-lg font-semibold mb-2">{exp.title}</h4>
+                    <p className="text-primary text-sm mb-3">{exp.period}</p>
+                    <p className="text-muted-foreground text-sm">{exp.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>

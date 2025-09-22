@@ -17,7 +17,7 @@ export default function Projects() {
     {
       title: "Neural Network Techniques Explorer",
       description: "Interactive toolkit implementing 6 ANN methods (RBF, PCA, SOM, ART1, Fuzzy, Genetic) with Streamlit GUI for visualization and experimentation.",
-      image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://i.postimg.cc/qRQh9Hy4/nn-app-screenshot.png",
       tags: ["Python", "Streamlit", "Neural Networks", "Git"],
       github: "https://github.com/MarwanMohammed2500/RBF-Calculator",
       demo: null
@@ -57,7 +57,7 @@ export default function Projects() {
     {
       title: "ML Web App for Predicting Ad Campaign Responses",
       description: "Deployed a modified logistic regression model in a web app to predict user response to ads based on age and salary. Helps optimize ad spend by enabling more targeted and cost-efficient marketing campaigns.",
-      image: "https://images.unsplash.com/photo-1656164630621-8974e3a7e85c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://i.postimg.cc/2yXcwJ5S/SM-Pred-App.png",
       tags: ["Python", "Django", "Docker", "Git", "Supervised model training"],
       github: "https://github.com/MarwanMohammed2500/Ad-Campaign-Demographical-Prediction",
       demo: null
@@ -73,7 +73,7 @@ export default function Projects() {
     {
       title: "Cloud-Native Library Management System",
       description: "Cloud-native application with full DevOps practices: Docker containers, Kubernetes orchestration, and complete automation via Terraform and Jenkins CI/CD.",
-      image: "https://images.unsplash.com/photo-1568667256549-094345857637?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://i.postimg.cc/VL21sZFw/lib-sys.png",
       tags: ["Docker", "Kubernetes", "AWS EKS", "Terraform"],
       github: "https://github.com/Ahmedyehia12/LibraryManagmentSystem",
       demo: null
