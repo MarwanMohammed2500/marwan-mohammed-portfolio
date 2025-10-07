@@ -28,11 +28,13 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-background/90 dark:bg-background/90 backdrop-blur-md border-b border-border z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <button
-            onClick={() => scrollToSection("#home")}
-            className="text-xl font-bold gradient-text hover:opacity-80 transition-opacity"
-          >
-            Marwan Mohammed
+          {/* Logo */}
+          <button onClick={() => scrollToSection("#home")} className="hover:opacity-80 transition-opacity">
+            <img
+              src={theme === "dark" ? "/icon-dark.png" : "/icon-light.png"}
+              alt="Marwan Mohammed Logo"
+              className="h-20 w-auto"
+            />
           </button>
 
           {/* Desktop Navigation */}
@@ -56,11 +58,7 @@ export default function Navbar() {
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
               className="hover:bg-accent"
             >
-              {theme === "light" ? (
-                <Sun className="h-5 w-5" />
-              ) : (
-                <Moon className="h-5 w-5" />
-              )}
+              {theme === "light" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
 
             <Button
@@ -69,11 +67,7 @@ export default function Navbar() {
               className="md:hidden"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              {mobileMenuOpen ? (
-                <X className="h-5 w-5" />
-              ) : (
-                <Menu className="h-5 w-5" />
-              )}
+              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
           </div>
         </div>
