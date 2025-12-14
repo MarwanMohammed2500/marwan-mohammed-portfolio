@@ -20,7 +20,7 @@ export default function Projects() {
       image: "https://i.postimg.cc/qRQh9Hy4/nn-app-screenshot.png",
       tags: ["Python", "Streamlit", "Neural Networks", "Git"],
       github: "https://github.com/MarwanMohammed2500/RBF-Calculator",
-      demo: null
+      demo: "https://rbf-calculator.streamlit.app/"
     },
     {
       title: "Smart Door/Lock System",
@@ -28,6 +28,14 @@ export default function Projects() {
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tags: ["Computer Vision", "ESP32", "IoT"],
       github: null,
+      demo: null
+    },
+    {
+      title: "Brain-Computer Interface (BCI) Model",
+      description: "It started as a Kaggle competition with a few friends, turned into a passion project I'm actively working on in my free time. Didn't get the best results out of it, but Im still researching to improve it more. And apply it on real-world things.",
+      image: "https://images.unsplash.com/photo-1753513291124-4f615bf1f6de",
+      tags: ["PyTorch", "EEGNet", "CNNs"],
+      github: "https://github.com/MarwanMohammed2500/BCI-Model",
       demo: null
     },
     {
@@ -41,10 +49,10 @@ export default function Projects() {
     {
       title: "Egyptian ID OCR Model",
       description: "A specialized OCR pipeline for extracting structured data from Egyptian national ID cards, combining fine-tuned pretrained models with custom-trained components. Ideal for governmental and private institutions seeking to automate data entry, improve accuracy, and ensure data integrity when processing ID-based information.",
-      image: "https://egyptianstreets.com/wp-content/uploads/2022/07/unnamed-3.png",
+      image: "attached_assets/ocr.png",
       tags: ["Computer Vision", "OCR", "Model Training"],
       github: "https://github.com/NASO7Y/OCR_Egyptian_ID",
-      demo: null
+      demo: "https://egyptianidocr.streamlit.app/"
     },
     {
       title: "Celebrity Face Recognition CV Model",

@@ -5,14 +5,6 @@ import { motion } from "framer-motion";
 export default function Experience() {
   const experiences = [
     {
-      title: "Independent MLOps Engineer",
-      company: "Self-Employed",
-      type: "Cairo • Contractor",
-      period: "Feb 2025 - Present",
-      current: true,
-      description: "Worked as an independed MLOps Engineer and AI Engineer"
-    },
-    {
       title: "Student Guide",
       company: "CLS - Egyptian Ministry of Communication",
       type: "On-Site • Part Time",
