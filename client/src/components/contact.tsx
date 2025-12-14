@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin, FileUser, CalendarClock, Github, Linkedin } from "
 export default function Contact() {
   const handleOpenCV = async () => {
     try {
-      window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Marwan_Mohammed_CV.pdf", '_blank');
+      window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Marwan_Mohammed.pdf", '_blank');
     } catch (error) {
       console.error('Error downloading CV:', error);
       window.open("https://docs.google.com/document/d/1CbIyCawneZVk16mW8cBuwLEU8ELdMP4AsgmO3NPkf68/edit?usp=sharing", '_blank');
