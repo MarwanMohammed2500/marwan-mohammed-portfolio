@@ -128,9 +128,9 @@ export default function Contact() {
                 <div className="p-4 bg-primary/10 rounded-lg">
                   <h5 className="font-semibold text-primary mb-2">Currently Open To:</h5>
                   <div className="space-y-1">
+                    <Badge variant="outline" className="mr-2 mb-1">AI Research Opportunities</Badge>
                     <Badge variant="outline" className="mr-2 mb-1">MLOps Engineering Roles</Badge>
                     <Badge variant="outline" className="mr-2 mb-1">Data Science Positions</Badge>
-                    <Badge variant="outline" className="mr-2 mb-1">AI Research Opportunities</Badge>
                     <Badge variant="outline" className="mr-2 mb-1">Freelance Projects</Badge>
                     <Button onClick={handleOpenFreelanceContract} className="w-full mb-8">
                       <FileUser className="mr-2 h-4 w-4" />
