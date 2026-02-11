@@ -6,24 +6,10 @@ import { Mail, Phone, MapPin, FileUser, CalendarClock, Github, Linkedin } from "
 
 export default function Contact() {
   const handleOpenCV = async () => {
-    try {
-      window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Marwan_Mohammed.pdf", '_blank');
-    } catch (error) {
-      console.error('Error downloading CV:', error);
-      window.open("https://docs.google.com/document/d/1CbIyCawneZVk16mW8cBuwLEU8ELdMP4AsgmO3NPkf68/edit?usp=sharing", '_blank');
-      // Fallback: open CV in new tab
-      
-    }
-  };
+      window.open("https://docs.google.com/document/d/1CbIyCawneZVk16mW8cBuwLEU8ELdMP4AsgmO3NPkf68/edit?usp=sharing", '_blank'); 
+    };
   const handleOpenFreelanceContract = async () => {
-    try {
-      window.open("https://marwan-mohammed-portfoli-442cb.web.app/attached_assets/Freelance_Employment_Contract.pdf", '_blank');
-    } catch (error) {
-      console.error('Error downloading CV:', error);
       window.open("https://docs.google.com/document/d/1Z09kmG1ZD0qbE8YVCyZwJ_-ipBA928fM_yc3W_K_iqU/edit?usp=sharing", '_blank');
-      // Fallback: open CV in new tab
-      
-    }
   };
 
   return (

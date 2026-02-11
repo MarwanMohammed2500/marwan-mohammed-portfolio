@@ -5,11 +5,27 @@ import { motion } from "framer-motion";
 export default function Experience() {
   const experiences = [
     {
+      title: "Junior Machine Learning Engineer",
+      company: "Thndr",
+      type: "Hybrid • Full Time",
+      period: "Fwb 2026 - Present",
+      current: true,
+      description: "I joined Thndr as the first machine learning engineer after my internship to help build their models, I was responsible for the entire model lifecycle, from experimentation to deployment and monitoring, which heled me gain massive experience and insights into how models behave in production environments and constraints actual models face, alongside retraining triggers and building full systems."
+    },
+    {
+      title: "Machine Learning Engineer",
+      company: "Thndr",
+      type: "Hybrid • Intern",
+      period: "Jan 2026 - Feb 2026",
+      current: false,
+      description: "I joined Thndr as a machine learning intern to help with machine learning projects, mainly eKYC project, I was able to improve the model's performance by ~25% and helped in the model's lifecycle end-to-end"
+    },
+    {
       title: "Student Guide",
       company: "CLS - Egyptian Ministry of Communication",
       type: "On-Site • Part Time",
-      period: "Feb 2025 - Present",
-      current: true,
+      period: "Feb 2025 - Nov. 2025",
+      current: false,
       description: "Helping students navigate their career paths in DECI program, creating supportive environments for skill development and career growth."
     },
     {
